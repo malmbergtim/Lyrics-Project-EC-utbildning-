@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(matthew-mcbrayer-Ug7xRQHVOiw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: black;
+}
+
+.main-text {
+  position: absolute;
+  font-size: 4rem;
+  left: 50%;
+  top: 2rem;
+  transform: translate(-50%);
+  white-space: nowrap;
+  color: rgb(219, 209, 209);
+  font-family: "Dancing Script", cursive;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 9rem;
+}
+
+.text-song {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  color: white;
+}
+
+.lyricsStyling {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: white solid 1px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: "Hind Siliguri", sans-serif;
+  transition: 0.3s;
+}
+
+button:hover {
+  border: green solid 1px;
+  color: green;
+}
+
+input[type="text"]::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  height: 3rem;
+  margin: 0.5rem;
+  text-emphasis-color: white;
+  border: none;
+  border-bottom: solid white 1px;
+  background-color: transparent;
+}
